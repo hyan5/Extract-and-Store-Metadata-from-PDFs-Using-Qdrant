@@ -83,21 +83,21 @@ User can input query for retrieving relevant content from the PDF. The user quer
 
 4.1 Open the interface in the browser.
 
-![interface](/Users/haaao/Desktop/oa_pdf/assets/interface.png)
+![interface](assets/interface.png)
 
 4.2 Choose and Upload the target pdf file.
 
-![upload_pdf](/Users/haaao/Desktop/oa_pdf/assets/upload_pdf.png)
+![upload_pdf](assets/upload_pdf.png)
 
 4.3 Wait the parsing process is completed.
 
-![parsing_completed](/Users/haaao/Desktop/oa_pdf/assets/parsing_completed.png)
+![parsing_completed](assets/parsing_completed.png)
 
 4.4 Input query for searching
 
 **Query 1: "What is the workflow described in the document?"**
 
-![query_1](/Users/haaao/Desktop/oa_pdf/assets/query_1.png)
+![query_1](assets/query_1.png)
 
 **Query 2: Show me the table containing the common comparison operators.**
 
