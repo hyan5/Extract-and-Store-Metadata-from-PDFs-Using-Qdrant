@@ -101,8 +101,8 @@ User can input query for retrieving relevant content from the PDF. The user quer
 
 **Query 2: Show me the table containing the common comparison operators.**
 
-![query_2](/Users/haaao/Desktop/oa_pdf/assets/query_2.png)
+![query_2](assets/query_2.png)
 
 **Query 3: What is repeat until loop?**
 
-![query_3](/Users/haaao/Desktop/oa_pdf/assets/query_3.png)
+![query_3](assets/query_3.png)
