@@ -7,7 +7,7 @@ This project is a PDF content extraction and query system that allows users to u
 1.1 Clone this repostoriy
 
 ````bash
-git clone git@
+git clone git@github.com:hyan5/Extract-and-Store-Metadata-from-PDFs-Using-Qdrant.git
 ````
 
 1.2 It is recomended to create a virtual environment for the system. I am using Conda with python 3.9.20
