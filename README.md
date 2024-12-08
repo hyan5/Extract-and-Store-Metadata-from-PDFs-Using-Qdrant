@@ -52,7 +52,6 @@ docker run -p 6333:6333 -p 6334:6334 \
 ## 2. Running the system
 
 ````
-cd
 python main.py
 ````
 
