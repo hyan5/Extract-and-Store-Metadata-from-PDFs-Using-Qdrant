@@ -31,7 +31,7 @@ conda activate pdfenv
 pip install -r requirements.txt
 ````
 
-1.5 Install Docker on your computer [here](https://docs.docker.com/engine/install/)
+1.5 Install Docker on your computer [here](https://docs.docker.com/get-started/get-docker/))
 
 1.6 Running Qdrant locally [documentation](https://qdrant.tech/documentation/quickstart/)
 
