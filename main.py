@@ -365,7 +365,7 @@ def query_qdrant():
                 "type": "Table",
                 "content": payload.get("content", "No description available."),
                 "table_html": payload.get("table", ""),
-                "page_number": payload.get("metadata", {}).get("paragraph_number", "unknown"),
+                "page_number": page_number,
             })
     return jsonify({"query": user_query, "results": formatted_results})
 
