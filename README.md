@@ -69,7 +69,7 @@ Difficulties Encountered During Implementation:
 
 Solutions:
 
-- "pymupdf" provided efficient tools retunring all blocks on the page. Based on their font-size, I reconstruct all paragraphs making them well-organized based on under their sections (subtitle).
+- "pymupdf" provided efficient tools retunring all blocks on the page. Based on their font-size, I reconstruct all paragraphs making them well-organized based on their sections (subtitle).
 - I employed a Image Caption Model to automatically generate the caption for the image. To enhance the clarity and accuracy, I additionally include the context information (e.g., the paragraph before the image) to make the caption accurate. (Image caption model used: "llava-hf/llava-interleave-qwen-0.5b-hf" avaliable on Huggingface, it is a small size model allowing both image and text input.)
 - Tables are a little bit hard to extract. Currently, I found all tables have a short description before it. So I developed logic to extract the last sentence before the table using pdfplumber. If the description exists, the extracted table is considered as a valid table, otherwise, it is considered as invalide table.
 
