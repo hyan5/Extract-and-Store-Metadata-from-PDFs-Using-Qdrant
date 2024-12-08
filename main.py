@@ -13,6 +13,7 @@ import pandas as pd
 import uuid
 import base64
 import os
+import socket
 import pdb
 
 
@@ -270,7 +271,19 @@ def query_qdrant_by_embedding(query, limit=5):
     )
 
     return results
-    
+
+def find_available_port(start_port=5000):
+    """
+    Finds an available port starting from the given port number.
+    """
+    while True:
+        try:
+            with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+                s.bind(('127.0.0.1', start_port))
+                return start_port
+        except OSError:
+            start_port += 1
+
 # Example PDF file to process
 # extract_tables_with_descriptions("Algorithms_and_Flowcharts.pdf")
 
@@ -357,4 +370,5 @@ def query_qdrant():
     return jsonify({"query": user_query, "results": formatted_results})
 
 if __name__ == "__main__":
-    app.run(host='0.0.0.0', port=7070)
+    port = find_available_port()
+    app.run(host='0.0.0.0', port=port)
